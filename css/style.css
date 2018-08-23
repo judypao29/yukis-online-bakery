@@ -1,0 +1,156 @@
+/* index.css */
+
+.index nav ul a, nav .brand-logo {
+  color: #5E5656;
+}
+
+.index h1 {
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px #babbbc;
+  font-weight: 600;
+  color: #303030;
+}
+
+body {
+  background-color: #f1e7da;
+}
+
+.index h5 {
+  font-family: 'Rock Salt';
+  font-size: 20px;
+  /* color: #002663; */
+  color: #FE6666;
+  text-shadow: 2px 1px black;
+}
+
+.index li {
+  font-weight: 300;
+}
+
+.index p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+  /*subtext*/
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#homePagePic {
+  opacity: 0.5;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* gallery.css */
+
+.gallery nav ul a, nav .brand-logo {
+  color: #5E5656;
+}
+
+.gallery h1 {
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px #babbbc;
+  font-weight: 600;
+  color: #303030;
+}
+
+.gallery body {
+  background-color: #f1e7da;
+  height: 2000px;
+  overflow: scroll;
+}
+
+.gallery h5 {
+  font-family: 'Rock Salt';
+  font-size: 20px;
+  color: #FE6666;
+  text-shadow: 2px 1px black;
+}
+
+.gallery img {
+  border-radius: 25px;
+  margin: 16px 0px;
+  height: 300px;
+  width: 275px;
+  overflow: hidden;
+  border: 3px;
+  border-color: white;
+  border-style: solid;
+
+}
+
+.gallery li {
+  font-weight: 300;
+}
+
+.gallery p {
+  line-height: 2rem;
+}
+
+.picText {
+  float: none;
+}
+
+.picBorder {
+  border-style: solid;
+  border-color: white;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  margin: 0px;
+  display: flex;
+}
+
+.gallery {
+  background-color: #96c993;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+/* something else css */
