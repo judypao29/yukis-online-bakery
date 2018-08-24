@@ -102,6 +102,13 @@ footer.page-footer {
   font-family: 'Rock Salt';
   font-size: 20px;
   color: #FE6666;
+  margin-top: 55px;
+  text-shadow: 2px 1px black;
+}
+.gallery h4 {
+  font-family: 'Rock Salt';
+  font-size: 20px;
+  color: #FE6666;
   text-shadow: 2px 1px black;
 }
 
@@ -153,4 +160,60 @@ footer.page-footer {
   padding: 20px 0px;
 }
 
-/* something else css */
+/* flipper css */
+* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front {
+	width: 275px;
+	height: 300px;
+  margin: 16px 0px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.back {
+  border-radius: 25px;
+  margin: 16px 0px;
+  height: 300px;
+  width: 275px;
+  overflow: hidden;
+  border: 3px;
+  border-color: white;
+  border-style: solid;
+  background-color: #f1e7da;
+
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
