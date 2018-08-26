@@ -181,7 +181,7 @@ footer.page-footer {
   transform: rotateY(180deg);
 }
 
-.flip-container, .front {
+.flip-container, .front, .back {
   width: 275px;
   height: 300px;
   margin: 16px 0px;
