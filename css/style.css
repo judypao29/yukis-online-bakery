@@ -126,10 +126,13 @@ footer.page-footer {
   margin: 16px 0px;
   height: 300px;
   width: 275px;
-  overflow: hidden;
+  /* width: auto;
+  height: auto; */
+  overflow: visible;
   border: 3px;
   border-color: white;
   border-style: solid;
+
 }
 
 .gallery li {
@@ -198,7 +201,6 @@ footer.page-footer {
 /* flip speed goes here */
 
 .flipper {
-  /* transition: 0.6s; */
   transform-style: preserve-3d;
   position: relative;
 }
@@ -237,12 +239,52 @@ footer.page-footer {
 .back {
   transform: rotateY(-180deg);
 }
+/*************/
+/* about css */
+/*************/
+.about nav ul a, nav .brand-logo {
+  color: #5E5656;
+}
+.about h5 {
+  font-family: 'Rock Salt';
+  font-size: 20px;
+  color: #FE6666;
+  margin-top: 55px;
+  text-shadow: 2px 1px black;
+}
+.resume {
+  padding: 0 10px 0px 25px;
+  background-color: #f1e7da;
+  color: #5E5656;
+  width: auto;
+  height: auto;
+  font-family: "garamond";
+  text-align: center;
+}
+
+p.resumeTitle {
+  font-size: 40px;
+  color: #353030;
+}
+.resumeItem{
+  font-size: 24px;
+  font-style: italic;
+}
 
 /**************/
-
 /* stream css */
-
 /**************/
+.stream nav ul a, nav .brand-logo {
+  color: #5E5656;
+}
+
+.stream h5 {
+  font-family: 'Rock Salt';
+  font-size: 20px;
+  color: #FE6666;
+  margin-top: 55px;
+  text-shadow: 2px 1px black;
+}
 
 .article {
   display: flex;
