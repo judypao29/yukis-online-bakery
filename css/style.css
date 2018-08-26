@@ -22,7 +22,6 @@ body {
 .index h5 {
   font-family: 'Rock Salt';
   font-size: 20px;
-  /* color: #002663; */
   color: #FE6666;
   text-shadow: 2px 1px black;
 }
@@ -253,7 +252,6 @@ footer.page-footer {
   font-family: 'Rock Salt';
   font-size: 20px;
   color: #FE6666;
-  margin-top: 55px;
   text-shadow: 2px 1px black;
 }
 
@@ -291,7 +289,6 @@ p.resumeTitle {
   font-family: 'Rock Salt';
   font-size: 20px;
   color: #FE6666;
-  margin-top: 55px;
   text-shadow: 2px 1px black;
 }
 
