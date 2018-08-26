@@ -170,9 +170,6 @@ footer.page-footer {
 /* flipper css */
 
 /* entire container, keeps perspective */
-
-/*  UPDATED! flip the pane when hovered */
-
 .flip-container {
   perspective: 1000px;
   transform-style: preserve-3d;
@@ -217,8 +214,7 @@ footer.page-footer {
   left: 0;
 }
 
-
-.back {
+.temp {
   border-radius: 25px;
   margin: 16px 0px;
   height: 300px;
@@ -229,7 +225,6 @@ footer.page-footer {
   border-style: solid;
   background-color: #f1e7da;
 }
-
 /*  UPDATED! front pane, placed above back */
 
 .front {
