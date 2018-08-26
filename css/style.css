@@ -4,7 +4,7 @@
 
 /*************/
 
-.index nav ul a, nav .brand-logo {
+.index nav ul a, nav {
   color: #5E5656;
 }
 
@@ -89,7 +89,7 @@ footer.page-footer {
 
 /***************/
 
-.gallery nav ul a, nav .brand-logo {
+.gallery nav ul a, nav {
   color: #5E5656;
 }
 
@@ -245,7 +245,7 @@ footer.page-footer {
 /* about css */
 /*************/
 
-.about nav ul a, nav .brand-logo {
+.about nav ul a, nav {
   color: #5E5656;
 }
 
@@ -283,7 +283,7 @@ p.resumeTitle {
 
 /**************/
 
-.stream nav ul a, nav .brand-logo {
+.stream nav ul a, nav {
   color: #5E5656;
 }
 
