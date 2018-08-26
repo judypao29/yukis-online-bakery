@@ -132,7 +132,6 @@ footer.page-footer {
   border: 3px;
   border-color: white;
   border-style: solid;
-
 }
 
 .gallery li {
@@ -173,6 +172,7 @@ footer.page-footer {
 /* flipper css */
 
 /* entire container, keeps perspective */
+
 .flip-container {
   perspective: 1000px;
   transform-style: preserve-3d;
@@ -227,6 +227,7 @@ footer.page-footer {
   border-style: solid;
   background-color: #f1e7da;
 }
+
 /*  UPDATED! front pane, placed above back */
 
 .front {
@@ -239,12 +240,15 @@ footer.page-footer {
 .back {
   transform: rotateY(-180deg);
 }
+
 /*************/
 /* about css */
 /*************/
+
 .about nav ul a, nav .brand-logo {
   color: #5E5656;
 }
+
 .about h5 {
   font-family: 'Rock Salt';
   font-size: 20px;
@@ -252,6 +256,7 @@ footer.page-footer {
   margin-top: 55px;
   text-shadow: 2px 1px black;
 }
+
 .resume {
   padding: 0 10px 0px 25px;
   background-color: #f1e7da;
@@ -266,14 +271,18 @@ p.resumeTitle {
   font-size: 40px;
   color: #353030;
 }
-.resumeItem{
+
+.resumeItem {
   font-size: 24px;
   font-style: italic;
 }
 
 /**************/
+
 /* stream css */
+
 /**************/
+
 .stream nav ul a, nav .brand-logo {
   color: #5E5656;
 }
