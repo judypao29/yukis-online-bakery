@@ -171,15 +171,26 @@ footer.page-footer {
 
 /* entire container, keeps perspective */
 
+/*  UPDATED! flip the pane when hovered */
+
 .flip-container {
   perspective: 1000px;
+  transform-style: preserve-3d;
 }
 
 /* flip the pane when hovered */
 
-.flip-container:hover .flipper, .flip-container.hover .flipper {
+.flip-container:hover .back {
+  transform: rotateY(0deg);
+}
+
+.flip-container:hover .front {
   transform: rotateY(180deg);
 }
+
+/* .flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+} */
 
 .flip-container, .front, .back {
   width: 275px;
@@ -199,10 +210,13 @@ footer.page-footer {
 
 .front, .back {
   backface-visibility: hidden;
+  transition: 0.6s;
+  transform-style: preserve-3d;
   position: absolute;
   top: 0;
   left: 0;
 }
+
 
 .back {
   border-radius: 25px;
@@ -216,18 +230,17 @@ footer.page-footer {
   background-color: #f1e7da;
 }
 
-/* front pane, placed above back */
+/*  UPDATED! front pane, placed above back */
 
 .front {
   z-index: 2;
-  /* for firefox 31 */
   transform: rotateY(0deg);
 }
 
 /* back, initially hidden pane */
 
 .back {
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
 }
 
 /**************/
@@ -240,8 +253,6 @@ footer.page-footer {
   display: flex;
   padding: 25px 30px;
 }
-
-
 
 .article a {
   color: salmon;
@@ -257,7 +268,6 @@ footer.page-footer {
   display: block;
   font-weight: bolder;
   font-family: 'Century Gothic';
-
 }
 
 .article h4 {
@@ -270,7 +280,6 @@ footer.page-footer {
   /* margin: 16px 30px; */
   margin: auto;
   font-family: 'Century Gothic';
-
 }
 
 .summary {
