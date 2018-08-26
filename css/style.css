@@ -241,8 +241,6 @@ footer.page-footer {
   padding: 25px 30px;
 }
 
-
-
 .article a {
   color: salmon;
   text-shadow: white;
@@ -257,7 +255,6 @@ footer.page-footer {
   display: block;
   font-weight: bolder;
   font-family: 'Century Gothic';
-
 }
 
 .article h4 {
@@ -270,7 +267,6 @@ footer.page-footer {
   /* margin: 16px 30px; */
   margin: auto;
   font-family: 'Century Gothic';
-
 }
 
 .summary {
