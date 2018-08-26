@@ -241,7 +241,9 @@ footer.page-footer {
 }
 
 /*************/
+
 /* about css */
+
 /*************/
 
 .about nav ul a, nav {
@@ -334,4 +336,41 @@ p.resumeTitle {
   font-family: 'Impact';
   font-size: 30px;
   margin: 16px 30px;
+}
+
+/***************/
+
+/* contact css */
+
+/***************/
+
+.contact nav ul a, nav {
+  color: #5E5656;
+}
+
+.contact h1 {
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px black;
+  font-weight: 600;
+  color: #FE6666;
+  text-align: center;
+}
+
+p.contactP {
+  font-family: 'Pacifico';
+  font-size: 25px;
+  /* text-shadow: 2px 2px #babbbc; */
+  /* font-weight: 600; */
+  text-align: center;
+}
+
+.contact body {
+  background-color: #f1e7da;
+}
+
+.contact h5 {
+  font-family: 'Rock Salt';
+  font-size: 20px;
+  color: #FE6666;
+  text-shadow: 2px 1px black;
 }
